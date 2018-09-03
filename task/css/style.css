@@ -1,0 +1,647 @@
+/* fonts */
+@font-face {
+	font-family: 'Proxima Nova Cn Lt';
+	src: url('ProximaNovaCond-LightIt.eot');
+	src: local('Proxima Nova Condensed Light Italic'), local('ProximaNovaCond-LightIt'),
+		url('ProximaNovaCond-LightIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-LightIt.woff') format('woff'),
+		url('ProximaNovaCond-LightIt.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Lt';
+	src: url('..fonts/ProximaNova-LightIt.eot');
+	src: local('Proxima Nova Light Italic'), local('ProximaNova-LightIt'),
+		url('..fonts/ProximaNova-LightIt.eot?#iefix') format('embedded-opentype'),
+		url('..fonts/ProximaNova-LightIt.woff') format('woff'),
+		url('..fonts/ProximaNova-LightIt.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Rg';
+	src: url('ProximaNovaCond-Regular.eot');
+	src: local('Proxima Nova Condensed Regular'), local('ProximaNovaCond-Regular'),
+		url('ProximaNovaCond-Regular.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-Regular.woff') format('woff'),
+		url('ProximaNovaCond-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Th';
+	src: url('ProximaNova-Extrabld.eot');
+	src: local('Proxima Nova Extrabold'), local('ProximaNova-Extrabld'),
+		url('ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNova-Extrabld.woff') format('woff'),
+		url('ProximaNova-Extrabld.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Bl';
+	src: url('ProximaNovaCond-Black.eot');
+	src: local('Proxima Nova Condensed Black'), local('ProximaNovaCond-Black'),
+		url('ProximaNovaCond-Black.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-Black.woff') format('woff'),
+		url('ProximaNovaCond-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Th';
+	src: url('ProximaNovaCond-ExtrabldIt.eot');
+	src: local('Proxima Nova Condensed Extrabold Italic'), local('ProximaNovaCond-ExtrabldIt'),
+		url('ProximaNovaCond-ExtrabldIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-ExtrabldIt.woff') format('woff'),
+		url('ProximaNovaCond-ExtrabldIt.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('ProximaNova-Regular.eot');
+	src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+		url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNova-Regular.woff') format('woff'),
+		url('ProximaNova-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Lt';
+	src: url('ProximaNova-Semibold.eot');
+	src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+		url('ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNova-Semibold.woff') format('woff'),
+		url('ProximaNova-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExCn Th';
+	src: url('ProximaNovaExCn-Thin.eot');
+	src: local('Proxima Nova Extra Condensed Thin'), local('ProximaNovaExCn-Thin'),
+		url('ProximaNovaExCn-Thin.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaExCn-Thin.woff') format('woff'),
+		url('ProximaNovaExCn-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Lt';
+	src: url('ProximaNovaCond-Semibold.eot');
+	src: local('Proxima Nova Condensed Semibold'), local('ProximaNovaCond-Semibold'),
+		url('ProximaNovaCond-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-Semibold.woff') format('woff'),
+		url('ProximaNovaCond-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExCn Lt';
+	src: url('ProximaNovaExCn-SemiboldIt.eot');
+	src: local('Proxima Nova Extra Condensed Semibold Italic'), local('ProximaNovaExCn-SemiboldIt'),
+		url('ProximaNovaExCn-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaExCn-SemiboldIt.woff') format('woff'),
+		url('ProximaNovaExCn-SemiboldIt.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExCn Lt';
+	src: url('ProximaNovaExCn-Semibold.eot');
+	src: local('Proxima Nova Extra Condensed Semibold'), local('ProximaNovaExCn-Semibold'),
+		url('ProximaNovaExCn-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaExCn-Semibold.woff') format('woff'),
+		url('ProximaNovaExCn-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Th';
+	src: url('ProximaNova-ThinIt.eot');
+	src: local('Proxima Nova Thin Italic'), local('ProximaNova-ThinIt'),
+		url('ProximaNova-ThinIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNova-ThinIt.woff') format('woff'),
+		url('ProximaNova-ThinIt.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Th';
+	src: url('ProximaNovaCond-Thin.eot');
+	src: local('Proxima Nova Condensed Thin'), local('ProximaNovaCond-Thin'),
+		url('ProximaNovaCond-Thin.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-Thin.woff') format('woff'),
+		url('ProximaNovaCond-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Rg';
+	src: url('ProximaNovaCond-RegularIt.eot');
+	src: local('Proxima Nova Condensed Regular Italic'), local('ProximaNovaCond-RegularIt'),
+		url('ProximaNovaCond-RegularIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-RegularIt.woff') format('woff'),
+		url('ProximaNovaCond-RegularIt.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExCn Th';
+	src: url('ProximaNovaExCn-ThinIt.eot');
+	src: local('Proxima Nova Extra Condensed Thin Italic'), local('ProximaNovaExCn-ThinIt'),
+		url('ProximaNovaExCn-ThinIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaExCn-ThinIt.woff') format('woff'),
+		url('ProximaNovaExCn-ThinIt.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Lt';
+	src: url('ProximaNova-SemiboldIt.eot');
+	src: local('Proxima Nova Semibold Italic'), local('ProximaNova-SemiboldIt'),
+		url('ProximaNova-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNova-SemiboldIt.woff') format('woff'),
+		url('ProximaNova-SemiboldIt.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('ProximaNova-RegularIt.eot');
+	src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'),
+		url('ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNova-RegularIt.woff') format('woff'),
+		url('ProximaNova-RegularIt.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Th';
+	src: url('ProximaNovaCond-Extrabld.eot');
+	src: local('Proxima Nova Condensed Extrabold'), local('ProximaNovaCond-Extrabld'),
+		url('ProximaNovaCond-Extrabld.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-Extrabld.woff') format('woff'),
+		url('ProximaNovaCond-Extrabld.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExCn Th';
+	src: url('ProximaNovaExCn-ExtrabldIt.eot');
+	src: local('Proxima Nova Extra Condensed Extrabold Italic'), local('ProximaNovaExCn-ExtrabldIt'),
+		url('ProximaNovaExCn-ExtrabldIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaExCn-ExtrabldIt.woff') format('woff'),
+		url('ProximaNovaExCn-ExtrabldIt.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExCn Bl';
+	src: url('ProximaNovaExCn-BlackIt.eot');
+	src: local('Proxima Nova Extra Condensed Black Italic'), local('ProximaNovaExCn-BlackIt'),
+		url('ProximaNovaExCn-BlackIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaExCn-BlackIt.woff') format('woff'),
+		url('ProximaNovaExCn-BlackIt.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExCn Lt';
+	src: url('ProximaNovaExCn-LightIt.eot');
+	src: local('Proxima Nova Extra Condensed Light Italic'), local('ProximaNovaExCn-LightIt'),
+		url('ProximaNovaExCn-LightIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaExCn-LightIt.woff') format('woff'),
+		url('ProximaNovaExCn-LightIt.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Th';
+	src: url('ProximaNovaCond-ThinIt.eot');
+	src: local('Proxima Nova Condensed Thin Italic'), local('ProximaNovaCond-ThinIt'),
+		url('ProximaNovaCond-ThinIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-ThinIt.woff') format('woff'),
+		url('ProximaNovaCond-ThinIt.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExCn Lt';
+	src: url('ProximaNovaExCn-Light.eot');
+	src: local('Proxima Nova Extra Condensed Light'), local('ProximaNovaExCn-Light'),
+		url('ProximaNovaExCn-Light.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaExCn-Light.woff') format('woff'),
+		url('ProximaNovaExCn-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Rg';
+	src: url('ProximaNovaCond-BoldIt.eot');
+	src: local('Proxima Nova Condensed Bold Italic'), local('ProximaNovaCond-BoldIt'),
+		url('ProximaNovaCond-BoldIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-BoldIt.woff') format('woff'),
+		url('ProximaNovaCond-BoldIt.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExCn Th';
+	src: url('ProximaNovaExCn-Extrabld.eot');
+	src: local('Proxima Nova Extra Condensed Extrabold'), local('ProximaNovaExCn-Extrabld'),
+		url('ProximaNovaExCn-Extrabld.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaExCn-Extrabld.woff') format('woff'),
+		url('ProximaNovaExCn-Extrabld.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExCn Rg';
+	src: url('ProximaNovaExCn-BoldIt.eot');
+	src: local('Proxima Nova Extra Condensed Bold Italic'), local('ProximaNovaExCn-BoldIt'),
+		url('ProximaNovaExCn-BoldIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaExCn-BoldIt.woff') format('woff'),
+		url('ProximaNovaExCn-BoldIt.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Bl';
+	src: url('ProximaNova-Black.eot');
+	src: local('Proxima Nova Black'), local('ProximaNova-Black'),
+		url('ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNova-Black.woff') format('woff'),
+		url('ProximaNova-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('ProximaNova-Bold.eot');
+	src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+		url('ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNova-Bold.woff') format('woff'),
+		url('ProximaNova-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExCn Rg';
+	src: url('ProximaNovaExCn-Bold.eot');
+	src: local('Proxima Nova Extra Condensed Bold'), local('ProximaNovaExCn-Bold'),
+		url('ProximaNovaExCn-Bold.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaExCn-Bold.woff') format('woff'),
+		url('ProximaNovaExCn-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Th';
+	src: url('ProximaNovaT-Thin.eot');
+	src: local('Proxima Nova Thin'), local('ProximaNovaT-Thin'),
+		url('ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaT-Thin.woff') format('woff'),
+		url('ProximaNovaT-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('ProximaNova-BoldIt.eot');
+	src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'),
+		url('ProximaNova-BoldIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNova-BoldIt.woff') format('woff'),
+		url('ProximaNova-BoldIt.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Rg';
+	src: url('ProximaNovaCond-Bold.eot');
+	src: local('Proxima Nova Condensed Bold'), local('ProximaNovaCond-Bold'),
+		url('ProximaNovaCond-Bold.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-Bold.woff') format('woff'),
+		url('ProximaNovaCond-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExCn Bl';
+	src: url('ProximaNovaExCn-Black.eot');
+	src: local('Proxima Nova Extra Condensed Black'), local('ProximaNovaExCn-Black'),
+		url('ProximaNovaExCn-Black.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaExCn-Black.woff') format('woff'),
+		url('ProximaNovaExCn-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExCn Rg';
+	src: url('ProximaNovaExCn-RegularIt.eot');
+	src: local('Proxima Nova Extra Condensed Regular Italic'), local('ProximaNovaExCn-RegularIt'),
+		url('ProximaNovaExCn-RegularIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaExCn-RegularIt.woff') format('woff'),
+		url('ProximaNovaExCn-RegularIt.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Lt';
+	src: url('ProximaNovaCond-Light.eot');
+	src: local('Proxima Nova Condensed Light'), local('ProximaNovaCond-Light'),
+		url('ProximaNovaCond-Light.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-Light.woff') format('woff'),
+		url('ProximaNovaCond-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Th';
+	src: url('ProximaNova-ExtrabldIt.eot');
+	src: local('Proxima Nova Extrabold Italic'), local('ProximaNova-ExtrabldIt'),
+		url('ProximaNova-ExtrabldIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNova-ExtrabldIt.woff') format('woff'),
+		url('ProximaNova-ExtrabldIt.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Bl';
+	src: url('ProximaNovaCond-BlackIt.eot');
+	src: local('Proxima Nova Condensed Black Italic'), local('ProximaNovaCond-BlackIt'),
+		url('ProximaNovaCond-BlackIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-BlackIt.woff') format('woff'),
+		url('ProximaNovaCond-BlackIt.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova ExCn Rg';
+	src: url('ProximaNovaExCn-Regular.eot');
+	src: local('Proxima Nova Extra Condensed Regular'), local('ProximaNovaExCn-Regular'),
+		url('ProximaNovaExCn-Regular.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaExCn-Regular.woff') format('woff'),
+		url('ProximaNovaExCn-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Lt';
+	src: url('ProximaNova-Light.eot');
+	src: local('Proxima Nova Light'), local('ProximaNova-Light'),
+		url('ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNova-Light.woff') format('woff'),
+		url('ProximaNova-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Cn Lt';
+	src: url('ProximaNovaCond-SemiboldIt.eot');
+	src: local('Proxima Nova Condensed Semibold Italic'), local('ProximaNovaCond-SemiboldIt'),
+		url('ProximaNovaCond-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNovaCond-SemiboldIt.woff') format('woff'),
+		url('ProximaNovaCond-SemiboldIt.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Bl';
+	src: url('ProximaNova-BlackIt.eot');
+	src: local('Proxima Nova Black Italic'), local('ProximaNova-BlackIt'),
+		url('ProximaNova-BlackIt.eot?#iefix') format('embedded-opentype'),
+		url('ProximaNova-BlackIt.woff') format('woff'),
+		url('ProximaNova-BlackIt.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+/* fonts */
+/* slider */
+#slider {
+    text-align: center;
+}
+h2 {
+    margin:40px 0 25px;
+    border-bottom:1px solid #bbb;
+    padding:0 0 10px;
+}
+p {
+    margin:20px 0 16px;
+}
+label:hover,
+a:hover {
+    color:#ddd!important
+}
+* {-moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+
+label,
+#active,
+img {
+    -moz-user-select:none;
+    -webkit-user-select:none
+}
+#slider{
+    margin-top: -40px;
+}
+input{display:none}
+#slide1:checked ~ #slides .inner{margin-left:0}
+#slide2:checked ~ #slides .inner{margin-left:-100%}
+#slide3:checked ~ #slides .inner{margin-left:-200%}
+#slide4:checked ~ #slides .inner{margin-left:-300%}
+#slide5:checked ~ #slides .inner{margin-left:-400%}
+#container{width:100%;overflow:hidden}
+article img{width:100%}
+#slides .inner{width:500%;line-height:0}
+#slides article{width:20%;float:left}
+#commands{margin:-25% 0 0 0;width:100%;height:50px}
+#commands label{display:none;width:80px;height:80px;opacity:0.5}
+#commands label:hover{opacity:0.8}
+#active{position:relative;z-index:5;margin:16% 0 0;text-align:center}
+#active label{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;display:inline-block;width:10px;height:10px;background:#bbb}
+#active label:hover{background:#333;border-color:#777!important}
+#slide1:checked ~ #commands label:nth-child(2),#slide2:checked ~ #commands label:nth-child(3),#slide3:checked ~ #commands label:nth-child(4),#slide4:checked ~ #commands label:nth-child(5),#slide5:checked ~ #commands label:nth-child(1){background:url('https://0.s3.envato.com/files/84450220/img/next.png') no-repeat;float:right;margin:0 12px 0 0;display:block}
+#slide1:checked ~ #commands label:nth-child(5),#slide2:checked ~ #commands label:nth-child(1),#slide3:checked ~ #commands label:nth-child(2),#slide4:checked ~ #commands label:nth-child(3),#slide5:checked ~ #commands label:nth-child(4){background:url('https://0.s3.envato.com/files/84450220/img/previous.png') no-repeat;float:left;margin:0 0 0 -6px;display:block}
+#slide1:checked ~ #active label:nth-child(1),#slide2:checked ~ #active label:nth-child(2),#slide3:checked ~ #active label:nth-child(3),#slide4:checked ~ #active label:nth-child(4),#slide5:checked ~ #active label:nth-child(5){background:#000;opacity:0.6;border-color:#fff!important;border:2px solid #fff}
+.caption{line-height:20px;margin:0 0 -150%;position:absolute;padding:320px 12px;opacity:0;color:#fff;text-transform:none;font-family:'Open Sans',Arial,Helvetica,sans-serif;text-align:left;font-size:18px}
+.caption bar{display:inline-block;padding:10px;background:#000;border-radius:3px 3px 3px 3px;-moz-border-radius:3px 3px 3px 3px;-webkit-border-radius:3px 3px 3px 3px;opacity:0.7;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70)}
+#slides{position:relative;padding:2px;border:1px solid #ddd;margin:45px 0 0;background:#FFF;background:-webkit-linear-gradient(#FFF,#FFF 20%,#EEE 80%,#DDD);background:-moz-linear-gradient(#FFF,#FFF 20%,#EEE 80%,#DDD);background:-ms-linear-gradient(#FFF,#FFF 20%,#EEE 80%,#DDD);background:-o-linear-gradient(#FFF,#FFF 20%,#EEE 80%,#DDD);background:linear-gradient(#FFF,#FFF 20%,#EEE 80%,#DDD);-webkit-border-radius:2px 2px 2px 2px;-moz-border-radius:2px 2px 2px 2px;border-radius:2px 2px 2px 2px;-webkit-box-shadow:0 0 3px rgba(0,0,0,0.2);-moz-box-shadow:0 0 3px rgba(0,0,0,0.2);box-shadow:0 0 3px rgba(0,0,0,0.2)}
+#slides .inner{-webkit-transform:translateZ(0);-webkit-transition:all 800ms cubic-bezier(0.770,0.000,0.175,1.000);-moz-transition:all 800ms cubic-bezier(0.770,0.000,0.175,1.000);-ms-transition:all 800ms cubic-bezier(0.770,0.000,0.175,1.000);-o-transition:all 800ms cubic-bezier(0.770,0.000,0.175,1.000);transition:all 800ms cubic-bezier(0.770,0.000,0.175,1.000);-webkit-transition-timing-function:cubic-bezier(0.770,0.000,0.175,1.000);-moz-transition-timing-function:cubic-bezier(0.770,0.000,0.175,1.000);-ms-transition-timing-function:cubic-bezier(0.770,0.000,0.175,1.000);-o-transition-timing-function:cubic-bezier(0.770,0.000,0.175,1.000);transition-timing-function:cubic-bezier(0.770,0.000,0.175,1.000)}
+#slider{
+    -webkit-transform:translateZ(0);
+    -webkit-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    -o-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out}
+#commands label{-webkit-transform:translateZ(0);-webkit-transition:opacity 0.2s ease-out;-moz-transition:opacity 0.2s ease-out;-o-transition:opacity 0.2s ease-out;transition:opacity 0.2s ease-out}
+#slide1:checked ~ #slides article:nth-child(1) .caption,#slide2:checked ~ #slides article:nth-child(2) .caption,#slide3:checked ~ #slides article:nth-child(3) .caption,#slide4:checked ~ #slides article:nth-child(4) .caption,#slide5:checked ~ #slides article:nth-child(5) .caption{opacity:1;-webkit-transition:all 1s ease-out 0.6s;-moz-transition:all 1s ease-out 0.6s;-o-transition:all 1s ease-out 0.6s;transition:all 1s ease-out 0.6s}
+#commands,#commands label,#slides,#active,#active label{-webkit-transform:translateZ(0);-webkit-transition:all 0.5s ease-out;-moz-transition:all 0.5s ease-out;-o-transition:all 0.5s ease-out;transition:all 0.5s ease-out}
+/* #slider{max-width:960px} */
+@media only screen and (max-width:850px) and (min-width:450px){
+    #slider #commands{margin:-25% 0 0 5%;width:90%;height:50px}
+    #slider #commands label{-moz-transform:scale(0.9);-webkit-transform:scale(0.9);-o-transform:scale(0.9);-ms-transform:scale(0.9);transform:scale(0.9)}
+    #slider #slides .caption{padding:280px 12px}
+    #slider #slides{padding:2px 0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
+    #slider #active{margin:15% 0 0}
+}
+@media only screen and (max-width:450px){
+    #slider #commands{margin:-28% 0 0 1%;width:100%;height:70px}
+    #slider #active{margin:12% 0 0}
+    #slider #slides{padding:2px 0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
+    #slider #slides .caption{opacity:0!important}
+    #slider #commands label{-moz-transform:scale(0.7);-webkit-transform:scale(0.7);-o-transform:scale(0.7);-ms-transform:scale(0.7);transform:scale(0.7)}
+}
+@media only screen and (min-width:850px){
+    body{padding:0 80px}
+}
+/* slider */
+/* header */
+.header {
+    padding: 20px 0;
+    height: 56px;
+    font-family: 'Proxima Nova Bl';
+    font-family: 'Proxima Nova Lt';
+}
+.header-left {
+    display: inline-block;
+}
+.header-logo {
+    align-self: center;
+    margin-right: 30px;
+    font-size: 30px;
+    color: #040404;
+}
+.header-title {
+    font-size: 13px;
+    color: #000;
+    text-transform: uppercase;
+}
+.header-phone {
+    font-size: 35px;
+    color: #000;
+    margin-right: 30px;
+}
+.header-callback {
+    color: #fff;
+    font-size: 13px;
+    background: linear-gradient(to top, rgba(255,80,89,1) 0%, rgba(253,112,72,1) 100%);
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+}
+/* header */
+/* navigation */
+.menu {
+    list-style: none;
+    position: relative;
+    z-index: 2;
+    background: #000;
+    top: 50px;
+}
+.menu__item {
+    margin-right: 30px;
+}
+.menu__item > a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    opacity: 1;
+}
+.menu__item > a:hover {
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 13px;
+}
+.menu__item > a:active{
+    font-weight: 800;
+
+}
+.bordered{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+/* navigation */
+/* products */
+.product {
+    position: absolute;
+    top: 50px;
+    left: 4%;
+}
+.product__heading {
+    background-color: #fff;
+    opacity: 0.8;
+    transform: skew(-10deg);
+    padding: 0 10px;
+}
+.product__heading__text {
+    color: #000;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: 800;
+    transform: skew(10deg);
+}
+.product__descr {
+    background-color: #fff;
+    opacity: 0.8;
+    transform: skew(-10deg);
+    padding: 0 10px;
+    
+}
+.product__description {
+    font-size: 36px;
+    color: #000;
+    text-decoration: underline;
+    font-weight: 800;
+}
+/* products */
