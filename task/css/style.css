@@ -1,4 +1,7 @@
 /* fonts */
+* {
+	box-sizing:border-box;
+}
 body {
 	overflow-x: hidden;
 	padding: 0;
@@ -23,10 +26,6 @@ p {
 label:hover,
 a:hover {
     color:#ddd!important
-}
-* {-moz-box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-    box-sizing:border-box
 }
 
 label,
@@ -404,5 +403,22 @@ article img{
 	#active{
 		left: 130px;
 		bottom: 360px;
+	}
+	.header-title {
+		font-size: 12px;
+	} 
+	.header-phone{
+		font-size: 23px;
+	}
+}
+@media only screen and (max-width:320px){
+	.header-logo {
+		font-size: 28px;
+	}
+	.header-title {
+		font-size: 12px;
+	}
+	.header-phone{
+		font-size: 23px;
 	}
 }
