@@ -25,7 +25,7 @@ p {
 } 
 label:hover,
 a:hover {
-    color:#ddd!important
+    color:#ddd!
 }
 
 label,
@@ -153,16 +153,9 @@ article img{
 /* header */
 .header {
     padding: 20px 0;
-    height: 56px;
 }
-.header-left {
-    display: inline-block;
-}
-.header-logo {
-    align-self: center;
-    margin-right: 30px;
-    font-size: 30px;
-    color: #040404;
+.header-logo-right {
+	align-self: center;
 }
 .header-title {
     font-size: 13px;
@@ -171,19 +164,32 @@ article img{
 	align-self: center;
 }
 .header-phone {
-    font-size: 35px;
-    color: #000;
-    margin-right: 30px;
+	align-self: center;
+}
+.header-phone > a {
+	color: #393939;
+	font-size: 35px;
+	text-decoration: none;
+}
+.header-phone > a:hover {
+	color: #817373;
 }
 .orange-btn {
-    color: #fff;
+    color: #000;
     font-size: 13px;
-    background: linear-gradient(to top, rgba(255,80,89,1) 0%, rgba(253,112,72,1) 100%);
-    border: none;
-    border-radius: 5px;
-    width: 130px;
-    height: 30px;
+    background: #ffcc33;
+	border: #fcd35a;;
+	padding: 5px 20px;
+    border-radius: 3px;
     cursor: pointer;
+}
+.orange-btn:hover {
+	background-color: #ffdd33;
+	outline: 0;
+}
+.orange-btn:active,
+.orange-btn:visited {
+	outline: 0;
 }
 /* header */
 /* navigation */
@@ -409,6 +415,7 @@ article img{
 	} 
 	.header-phone{
 		font-size: 23px;
+		
 	}
 }
 @media only screen and (max-width:320px){
