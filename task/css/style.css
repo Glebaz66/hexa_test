@@ -111,7 +111,6 @@ article img{
 }
 #slides{
 	position:relative;
-	border:1px solid #ddd;
 	border-radius:2px 2px 2px 2px;
 }
 #slides .inner{
