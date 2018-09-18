@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Duster</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&amp;subset=cyrillic" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
@@ -13,50 +14,23 @@
     <!-- header start-->
     <header class="header">
         <div class="container">
-            <div class="row d-flex justify-content-around">
-                <div class="header-left">
-                    <div class="header-logo-left">
-                        <a href="http://www.arma-motors.ua/" class="header-logo-link"><img src="img/arma_header_logo.gif" alt=""></a>
-                    </div>
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="header-left mb-3 col-xl-2 col-lg-2 col-md-6 col-xs-6">
+                    <a href="http://www.arma-motors.ua/" class="header-logo-link"><img src="img/arma_header_logo.gif" alt=""></a>
                 </div>
-                <div class="header-phone"><a href="tel:+78142332211">000 000 00 00</a></div>
-                <button class="align-self-center orange-btn">Заказать тестдрайв</button>
-                <div class="header-logo-right">
-                    <a href="http://www.arma-motors.ua/" class="header-logo-link"><img src="img/renault_logo.gif" alt=""></a>
+                <div class="header-phone mb-3 col-xl-4 col-lg-4 col-md-6 col-xs-6">
+                    <a href="tel:+000000000">000 000 00 00</a>
+                </div>
+                <div class="btn-wrap mb-3 col-xl-4 col-lg-4 col-md-6 col-xs-6">
+                    <button class="orange-btn">Заказать тестдрайв</button>
+                </div>
+                <div class="header-logo-right mb-3 col-xl-2 col-lg-2 col-md-6 col-xs-6">
+                    <img src="img/renault_logo.gif" alt="">
                 </div>
             </div>
         </div>
     </header>
     <!-- header end-->
-    <!-- navigation -->
-    <!-- <div class="container">
-        <div class="row">
-            <ul class="menu col-xs-12">
-                <li class="menu__item"><a href="#">главная</a></li>
-                <li class="menu__item bordered"><a href="#">для детcкой</a></li>
-                <li class="menu__item"><a href="#">для спальни</a></li>
-                <li class="menu__item bordered"><a href="#">для кухни</a></li>
-                <li class="menu__item"><a href="#">контакты</a></li>
-            </ul>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="dropdown mobile-menu col-xs-12">
-                    <a class="btn btn-secondary dropdown-toggle orange-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Меню
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item menu__item" href="#">главная</a>
-                        <a class="dropdown-item menu__item" href="#">для детcкой</a>
-                        <a class="dropdown-item menu__item" href="#">для спальни</a>
-                        <a class="dropdown-item menu__item" href="#">для кухни</a>
-                        <a class="dropdown-item menu__item" href="#">контакты</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- navigation -->
     <!-- slider start -->
     <div class="container-fluid">
         <div class="row">
@@ -227,44 +201,22 @@
         </div>
     </div>
     <!-- slider end -->
-    <!-- advantage -->
-    <div class="advantage">
-        <div class="content">
+    <!-- form-wrap -->
+    <div class="form-wrap">
+        <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                    <div class="wrap-img wrap-img d-flex justify-content-center">
-                        <img class="advantage__img" src="img/icon-photo.png">
-                    </div>
-                    <h2 class="advantage__title">Печатаем что угодно</h2>
-                    <p class="advantage__text">Все фотообои мы изготавливаем под заказ на собственном оборудовании. По этому можем напечатать совершенно все,что вы захотите</p>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                        <div class="wrap-img wrap-img d-flex justify-content-center">
-                            <img class="advantage__img" src="img/icon-arrow.png">
-                        </div>
-                        <h2 class="advantage__title">Любые размеры</h2>
-                        <p class="advantage__text">Профессиональное оборудование позволяет напечатать фотообои совершенно любого размера. Можем заклеить как часть, таки все стену без ограничений.</p>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                        <div class="wrap-img wrap-img d-flex justify-content-center">
-                            <img class="advantage__img" src="img/icon-calendar.png">
-                        </div>
-                        <h2 class="advantage__title">Изготовление за 1 день</h2>
-                        <p class="advantage__text">В среднем, изготовление одних фотообоев среднего размера занимает не более одного дня!
-                            </p>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                        <div class="wrap-img wrap-img d-flex justify-content-center">
-                            <img class="advantage__img" src="img/icon-deal.png">
-                        </div>
-                        <h2 class="advantage__title">Без посредников</h2>
-                        <p class="advantage__text">Мы имеем в наличие все необходимое оборудование для самостоятельного изготовления фотообоев. А значит вы не переплачиваете посредникам.
-                            </p>
-                </div>
+                <form action="POST" class="form-custom col-12 d-flex flex-column">
+                    <input type="text" name="Name" placeholder="Введите Ваше Имя" id="" class="mb-3">
+                    <input type="text" name="SurName" placeholder="Введите Вашу фамилию" id="" class="mb-3">
+                    <input type="email" name="email" placeholder="Введите Ваш email" id="" class="mb-3">
+                    <input type="date" name="date" placeholder="Введите Ваш email" id="" class="mb-3">
+                    <input type="time" name="time" id="" class="mb-3">
+                    <input type="submit" value="Отправить запрос">
+                </form>
             </div>
         </div>
     </div>
-    <!-- advantage -->
+    <!-- form-wrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
