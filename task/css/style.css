@@ -191,7 +191,7 @@ article img{
 /* products */
 .product {
     position: absolute;
-	top: 25px;
+	top: 60px;
 	left: 13%;
 }
 .product__heading {
@@ -294,6 +294,7 @@ article img{
 	background: rgba(255, 255, 255, 0.8);
 	text-align: left;
 	width: 90%;
+	margin-bottom: 50px;
 }
 .product__info-text {
 	padding: 15px;
@@ -382,7 +383,7 @@ article img{
 		transform: none;
 	}
 	.product__description {
-		padding: 0 40px;
+		padding: 0 20px;
 	}
 	.product__description__text {
 		transform: none;
@@ -401,6 +402,7 @@ article img{
 	.product__price__text-big {
 		font-size: 27px;
 		line-height: 14px;
+		padding: 0px 5px;
 	}
 	.header-title {
 		font-size: 12px;
@@ -409,8 +411,12 @@ article img{
 		font-size: 23px;
 		
 	}
+	.product__info-text {
+		padding: 5px;
+		font-size: 15px;
+	}
 }
-@media only screen and (min-width:320px){
+@media only screen and (max-width:320px){
 	.header-logo {
 		font-size: 28px;
 	}
@@ -419,5 +425,14 @@ article img{
 	}
 	.header-phone{
 		font-size: 23px;
+	}
+	#commands {
+		left: 20px;
+	}
+	#active {
+		left: 150px;
+	}
+	.form-wrap input {
+		width: 270px;
 	}
 }
