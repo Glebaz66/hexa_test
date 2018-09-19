@@ -54,7 +54,7 @@ article img{
 	width: 270px;
 	height: 50px;
 	position: absolute;
-	top: 507px;
+	bottom: -30px;
 	left: 77px;
 }
 #commands label{display:none;width:80px;height:80px;opacity:0.5}
@@ -63,7 +63,7 @@ article img{
 	z-index: 5;
 	text-align: center;
 	position: absolute;
-	bottom: 323px;
+	bottom: 20px;
 	left: 200px;
 }
 #active label{
@@ -229,7 +229,7 @@ article img{
 /* products */
 .product {
     position: absolute;
-	top: 65px;
+	top: 25px;
 	left: 13%;
 }
 .product__heading {
@@ -237,7 +237,7 @@ article img{
     opacity: 0.8;
     transform: skew(-10deg);
 	padding: 0 10px;
-	margin-left: 30px;
+	margin-left: 38px;
 }
 .product__heading__text {
     color: #000;
@@ -248,7 +248,9 @@ article img{
 }
 .product__descr {
 	transform: skew(-10deg);
-    padding: 0 10px;
+	padding: 0 10px;
+	margin-bottom: 30px;
+	
     
 }
 .product__description {
@@ -271,19 +273,18 @@ article img{
 	display: block;
 	border-bottom: 3px solid #000;
 	position: absolute;
-	top: 57px;
-	left: -16px;
+	left: -5px;
 	width: 110%;
 }
 .product__price {
-	background: linear-gradient(to right, rgba(34,212,34,1) 0%, rgba(3,126,3,1) 100%);
+	background: linear-gradient(to right, rgb(255, 233, 73) 0%, rgb(236, 186, 44) 100%);
 	padding: 0px 50px;
 	height: 65px;
 	align-self: center;
 }
 .product__price__text {
 	font-size: 18px;
-	color: #fff;
+	color: #000;
 	transform: skew(10deg);
 }
 .product__price__text-big {
@@ -312,14 +313,26 @@ article img{
 	position: absolute;
 	top: 0px;
 	left: 15px;
-	clip-path: polygon(0 0, 100% 0, 47% 100%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 77% 100%, 0% 100%);
+}
+.product__list {
+	list-style: none;
+	color: #ddd;
+	padding: 0;
+	text-align: left;
+}
+.product__list-item {
+	border: 1px solid #ddd;
+	padding: 3px 0 0 10px;
+}
+.product__list-item:not(:last-child){
+	margin-bottom: 10px;
 }
 /* products */
 /* form */
 .form-wrap {
 	background: rgba(255, 204, 51, 0.5);;
-	padding-top: 30px; 
-	margin-top: -30px;
+	padding: 30px 0; 
 }
 .form-wrap input {
 	display: block;
@@ -347,31 +360,9 @@ article img{
 	margin: 0 auto;
 }
 /* form */
-@media only screen and (max-width:1199px){
-	#commands {
-		top: 476px;
-	}
-	#active {
-		bottom: 350px;
-	}
-}
 @media only screen and (max-width:992px){
-	#commands {
-		top: 476px;
-	}
-	#active{
-		bottom: 353px;
-	}
 	.header-phone {
 		order: 2
-	}
-}
-@media only screen and (max-width:625px){
-	#commands{
-		top: 530px;
-	}
-	#active{
-		bottom: 300px;
 	}
 }
 @media only screen and (max-width:777px){
@@ -418,14 +409,6 @@ article img{
 	}
 	.product__price__text {
 		transform: none;
-	}
-	#commands{
-		top: 470px;
-		left: 6px;
-	}
-	#active{
-		left: 130px;
-		bottom: 360px;
 	}
 	.header-title {
 		font-size: 12px;
