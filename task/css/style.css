@@ -165,17 +165,18 @@ article img{
 	color: #817373;
 }
 .orange-btn {
+	padding: 20px;
     color: #000;
-    font-size: 13px;
-    background: #ffcc33;
-	border: #fcd35a;;
-	padding: 5px 20px;
+    font-size: 18px;
+    background: #ffdd33;
+	border: 1px solid #fcd35a;;
     border-radius: 3px;
 	cursor: pointer;
 	text-transform: uppercase;
 }
 .orange-btn:hover {
-	background-color: #ffdd33;
+	background-color: #ffe565;
+	border: 1px solid #e6c15c;;
 	outline: 0;
 	text-decoration: none;
 	color: #000;
@@ -261,6 +262,7 @@ article img{
 	font-size: 18px;
 	text-transform: uppercase;
 	width: 200px;
+	padding: 5px 20px;
 }
 .no-padding {
 	padding-left: 0 !important;
@@ -299,7 +301,7 @@ article img{
 /* products */
 /* form */
 .form-wrap {
-	background: linear-gradient(to right top, rgb(254, 241, 149) 0%, rgb(255, 207, 70) 100%);
+	background: linear-gradient(to right top, rgb(255, 233, 73) 0%, rgb(236, 186, 44) 100%);
 	padding: 30px 0; 
 }
 .form-wrap input {
