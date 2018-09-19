@@ -293,6 +293,7 @@ article img{
 .product__info {
 	background: rgba(255, 255, 255, 0.8);
 	text-align: left;
+	width: 90%;
 }
 .product__info-text {
 	padding: 15px;
@@ -338,6 +339,7 @@ article img{
 @media only screen and (max-width:777px){
 	.btn-wrap {
 		order: 1;
+		margin: 15px 0;
 	}
 	.cover {
 		clip-path: none;
@@ -352,10 +354,14 @@ article img{
 	.header-phone {
 		margin-top: 20px;
 	}
+
 }
 @media only screen and (max-width:575px){
 	.product__list {
 		width: 85%;
+	}
+	article img {
+		height: 590px;
 	}
 }
 @media only screen and (max-width:500px){
@@ -375,18 +381,26 @@ article img{
 	.product__descr{
 		transform: none;
 	}
+	.product__description {
+		padding: 0 40px;
+	}
 	.product__description__text {
 		transform: none;
-		font-size: 28px;
+		font-size: 22px;
 	}
 	.product__description__text::after {
-		top: 44px;
+		top: 34px;
 	}
 	.product__price {
 		padding: 0;
 	}
 	.product__price__text {
 		transform: none;
+		font-size: 15px;
+	}
+	.product__price__text-big {
+		font-size: 27px;
+		line-height: 14px;
 	}
 	.header-title {
 		font-size: 12px;
@@ -396,7 +410,7 @@ article img{
 		
 	}
 }
-@media only screen and (max-width:320px){
+@media only screen and (min-width:320px){
 	.header-logo {
 		font-size: 28px;
 	}
