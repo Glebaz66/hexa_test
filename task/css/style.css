@@ -1,4 +1,3 @@
-/* fonts */
 * {
 	box-sizing:border-box;
 }
@@ -6,7 +5,7 @@ body {
 	overflow-x: hidden;
 	padding: 0;
 	margin: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'RenaultLife';
 }
 .mobile-menu {
 	display: none;
@@ -15,11 +14,6 @@ body {
 #slider {
 	text-align: center;
 }
-/* h2 {
-    margin:40px 0 25px;
-    border-bottom:1px solid #bbb;
-    padding:0 0 10px;
-}*/
 p {
     margin:20px 0 16px;
 } 
@@ -164,7 +158,7 @@ article img{
 }
 .header-phone > a {
 	color: #393939;
-	font-size: 35px;
+	font-size: 30px;
 	text-decoration: none;
 }
 .header-phone > a:hover {
@@ -190,43 +184,9 @@ article img{
 .orange-btn:visited {
 	outline: 0;
 }
-/* header */
-/* navigation */
-.menu {
-	display: flex;
-	justify-content: space-between;
-	list-style: none;
-	position: absolute;
-	background-color: rgba(0, 0, 0, 0.3);
-	top: 102px;
-	width: 100vw;
-	padding: 6px;
-	left: 0px;
-	z-index: 1;
-}
-.menu__item {
-    margin: 0 auto;
-}
-.menu__item > a {
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 14px;
-}
-.menu__item > a:hover {
-	color: rgb(173, 173, 173);
-    text-decoration: none;
-}
-.menu__item > a:active{
-    font-weight: 800;
 
-}
-.bordered{
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-/* navigation */
+/* header */
+
 /* products */
 .product {
     position: absolute;
@@ -251,8 +211,6 @@ article img{
 	transform: skew(-10deg);
 	padding: 0 10px;
 	margin-bottom: 30px;
-	
-    
 }
 .product__description {
 	background-color: #fff;
@@ -289,8 +247,9 @@ article img{
 	transform: skew(10deg);
 }
 .product__price__text-big {
-	font-size: 45px;
+	font-size: 30px;
 	line-height: 20px;
+	font-weight: 800;
 }
 .product__text {
 	color: #fff;
@@ -312,9 +271,9 @@ article img{
 	height: 830px;
 	background-color: rgba(26, 25, 25, 0.5);
 	position: absolute;
-	top: 0px;
+	top: 1px;
 	left: 15px;
-	clip-path: polygon(0 0, 100% 0, 77% 100%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 79% 100%, 0% 100%);
 }
 .product__list {
 	list-style: none;
@@ -329,6 +288,14 @@ article img{
 .product__list-item:not(:last-child){
 	margin-bottom: 10px;
 }
+.product__info {
+	background: rgba(255, 255, 255, 0.8);
+	text-align: left;
+}
+.product__info-text {
+	padding: 15px;
+	margin: 0;
+}
 /* products */
 /* form */
 .form-wrap {
@@ -341,9 +308,9 @@ article img{
 	margin: 0 auto;
 	padding: 10px;
 	font-size: 20px;
-	border: 5px solid rgba(255, 255, 255, .5);
+	border: 2px solid rgba(255, 255, 255, .5);
 	box-shadow: 0 2px 10px rgba(0, 0, 0, .25) inset,0 2px 10px rgba(0, 0, 0, .25);
-	border-radius: 10px;
+	border-radius: 3px;
 	background: rgba(255, 255, 255, .5);
 	outline: none;
 	color: #333;
@@ -377,6 +344,12 @@ article img{
 	.product__heading__text {
 		transform: none;
 	}
+	.header-logo-right {
+		margin: 20px 0;
+	}
+	.header-phone {
+		margin-top: 20px;
+	}
 }
 @media only screen and (max-width:575px){
 	.product__list {
@@ -391,6 +364,7 @@ article img{
 		padding: 0px 9px;
 		margin-left: -20px;
 		transform: none;
+		
 	}
 	.product__heading__text {
 		font-size: 50px;
@@ -405,7 +379,6 @@ article img{
 	}
 	.product__description__text::after {
 		top: 44px;
-		left: -33px;
 	}
 	.product__price {
 		padding: 0;

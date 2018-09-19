@@ -1,0 +1,16 @@
+@font-face { 
+    font-family: 'RenaultLife'; 
+    src: url('RenaultLifeCyWebWeb-Bold.eot'); /* IE9 */ 
+    src: url('RenaultLifeCyWebWeb-Bold.eot') format('embedded-opentype'),	/*	IE6-IE8	*/ 
+    url('RenaultLifeCyWebWeb-Bold.woff') format('woff');		/*	Modern	Browsers	*/ 
+    font-weight: 900;
+    font-style: bold;
+}
+@font-face { 
+    font-family: 'RenaultLife'; 
+    src: url('RenaultLifeCyWebWeb-Regular.eot'); /* IE9 */ 
+    src: url('RenaultLifeCyWebWeb-Regular.eot') format('embedded-opentype'),	/*	IE6-IE8	*/ 
+    url('RenaultLifeCyWebWeb-Regular.woff') format('woff');		/*	Modern	Browsers	*/ 
+    font-weight: 400;
+    font-style: normal;
+}
