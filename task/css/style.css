@@ -331,7 +331,7 @@ article img{
 /* products */
 /* form */
 .form-wrap {
-	background: rgba(255, 204, 51, 0.5);;
+	background: linear-gradient(to right top, rgb(254, 241, 149) 0%, rgb(255, 207, 70) 100%);
 	padding: 30px 0; 
 }
 .form-wrap input {
