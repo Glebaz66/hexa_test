@@ -153,16 +153,14 @@ article img{
 	text-transform: uppercase;
 	align-self: center;
 }
-.header-phone {
-	/* align-self: center; */
-}
 .header-phone > a {
-	color: #393939;
+	color: #000;
 	font-size: 30px;
 	text-decoration: none;
+	font-weight: 800;
 }
 .header-phone > a:hover {
-	color: #817373;
+	color: #393939;
 }
 .orange-btn {
 	padding: 20px;
