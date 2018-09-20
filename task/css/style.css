@@ -302,8 +302,15 @@ article img{
 	color: #333;
 }
 .form-wrap input[type="submit"]{
-	border: none;
-	box-shadow: 0 2px 10px rgba(0, 0, 0, .25) inset;
+	padding: 20px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, .25) inset,0 2px 10px rgba(0, 0, 0, .25);
+    color: #000;
+    font-size: 18px;
+    background: #ffd816;
+	border: 2px solid #bc900e;
+    border-radius: 3px;
+	cursor: pointer;
+	text-transform: uppercase;
 }
 .form-wrap input[type="submit"]:hover {
 	background: rgba(255, 255, 255, .3);
