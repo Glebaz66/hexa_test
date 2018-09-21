@@ -249,7 +249,8 @@ article img{
 /* form */
 .form-wrap {
 	background: linear-gradient(to right top, rgb(255, 233, 73) 0%, rgb(236, 186, 44) 100%);
-	padding: 30px 0; 
+	padding: 30px 0;
+	height: 690px;
 }
 .form-heading {
 	padding: 15px 0;
@@ -323,6 +324,7 @@ article img{
 .more-link {
 	color: #000;
 	font-size: 20px;
+	text-transform: uppercase;
 }
 .more-link:hover {
 	text-decoration: none;
