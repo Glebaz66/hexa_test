@@ -328,8 +328,9 @@ article img{
 	text-decoration: none;
 	color: #383838;
 }
-/* .form-wrap label {
-} */
+.more {
+	margin: 0;
+}
 /* form */
 @media only screen and (max-width:992px){
 	.header-left,
@@ -424,6 +425,9 @@ article img{
 		bottom: 100px;
 		left: 186px;
 	}
+	.download {
+		right: 28%;
+	}
 }
 @media only screen and (max-width:320px){
 	.header-logo {
@@ -443,5 +447,8 @@ article img{
 	}
 	.form-wrap input {
 		width: 270px;
+	}
+	.download {
+		right: 20%;
 	}
 }
