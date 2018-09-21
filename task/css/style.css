@@ -315,10 +315,30 @@ article img{
 .form-wrap input[type="submit"]:hover {
 	background: rgba(255, 255, 255, .3);
 	cursor: pointer;
-
 }
 .form-custom {
 	margin: 0 auto;
+}
+.validity {
+	margin: 0 auto 10px;
+	padding: 0 12px; 
+}
+.validity-error {
+	color: #f60000;
+	margin: 0;
+}
+.submit-message-error {
+	color: #f60000;
+}
+.submit-message {
+	margin: 0 auto;
+	text-align: center;
+}
+.modal-dialog {
+	top: 70px;
+}
+.modal-header {
+	padding: 5px 15px;
 }
 /* .form-wrap label {
 } */

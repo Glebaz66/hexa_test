@@ -187,14 +187,44 @@
                 </div>
                 <form action="POST" class="form-custom col-12 d-flex flex-column">
                     <input type="text" name="Name" placeholder="Введите Ваше Имя" id="" class="mb-3">
+                    <div class="validity">
+                        <p class="validity-error">Проверьте правильность ввода данных</p>
+                    </div>
                     <input type="text" name="SurName" placeholder="Введите Вашу фамилию" id="" class="mb-3">
+                    <div class="validity">
+                        <p class="validity-error">Проверьте правильность ввода данных</p>
+                    </div>
                     <input type="email" name="email" placeholder="Введите Ваш email" id="" class="mb-3">
-                    <label for="date" class="mx-auto mb-3 date">Выбрать дату</label>
+                    <div class="validity">
+                        <p class="validity-error">Проверьте правильность ввода данных</p>
+                    </div>
                     <input type="date" name="date" id="" class="mb-3">
-                    <label for="time" class="mx-auto mb-3 time">Выбрать время</label>
                     <input type="time" name="time" id="" class="mb-3">
-                    <input type="submit" value="Отправить запрос">
-                    <!-- <a href="" class="orange-btn">Отправить запрос</a> -->
+                    <input type="submit" value="Отправить запрос" data-toggle="modal" data-target="#exampleModal">
+                    <div class="submit-message">
+                        <p class="submit-message-error">Ошибка при вводе данных</p>
+                    </div>
+                    <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+</button> -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Спасибо за обращение!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          В ближайшее время с Вами свяжется администратор для уточнения делалей.
+        </div>
+      </div>
+    </div>
+  </div>
                 </form>
             </div>
         </div>
