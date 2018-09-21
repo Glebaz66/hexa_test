@@ -57,7 +57,7 @@ article img{
 	text-align: center;
 	position: absolute;
 	bottom: 20px;
-	left: 200px;
+	left: 208px;
 }
 #active label{
 	border-radius:5px;
@@ -190,7 +190,7 @@ article img{
     position: absolute;
 	top: 230px;
 	left: 13%;
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.6);
 }
 .product__heading {
 	padding: 15px;
@@ -201,34 +201,6 @@ article img{
     text-transform: uppercase;
     font-weight: 800;
 }
-.product__descr {
-	transform: skew(-10deg);
-	padding: 0 10px;
-	margin-bottom: 30px;
-}
-/* .product__description {
-	background-color: #fff;
-	opacity: 0.8;
-	font-size: 36px;
-    color: #000;
-	font-weight: 800;
-	padding: 0 60px;
-	margin-right: 10px;
-}
-.product__description__text {
-	font-size: 36px;
-	color: #000;
-	transform: skew(10deg);
-	position: relative;
-}
-.product__description__text::after{
-	content: "";
-	display: block;
-	border-bottom: 3px solid #000;
-	position: absolute;
-	left: -5px;
-	width: 110%;
-} */
 .product__price__text {
 	font-size: 18px;
 	color: #000;
@@ -320,6 +292,7 @@ article img{
 	margin: 0 auto;
 }
 .validity {
+	display: none;
 	margin: 0 auto 10px;
 	padding: 0 12px; 
 }
@@ -331,6 +304,7 @@ article img{
 	color: #f60000;
 }
 .submit-message {
+	display: none;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -339,6 +313,20 @@ article img{
 }
 .modal-header {
 	padding: 5px 15px;
+}
+.download {
+	position: fixed;
+	bottom: 30px;
+	right: 70px;
+	z-index: 1;
+}
+.more-link {
+	color: #000;
+	font-size: 20px;
+}
+.more-link:hover {
+	text-decoration: none;
+	color: #383838;
 }
 /* .form-wrap label {
 } */
@@ -366,6 +354,17 @@ article img{
 	}
 	.header {
 		margin-top: -20px;
+	}
+	#commands {
+		bottom: 100px;
+		left: 90px;
+	}
+	#active {
+		bottom: 150px;
+		left: 220px;
+	}
+	.download {
+		right: 30%;
 	}
 }
 @media only screen and (max-width:575px){
@@ -410,7 +409,20 @@ article img{
 		font-size: 15px;
 	}
 		article img {
-		height: 590px;
+		height: 730px;
+	}
+	.download {
+		right: 25%;
+	}
+}
+@media only screen and (max-width:423px){
+	#commands {
+		bottom: 50px;
+		left: 55px;
+	}
+	#active {
+		bottom: 100px;
+		left: 186px;
 	}
 }
 @media only screen and (max-width:320px){
