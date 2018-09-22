@@ -145,6 +145,7 @@ article img{
 .header {
     padding-bottom: 20px;
 	text-align: center;
+	margin-top: 20px;
 }
 
 .header-title {
@@ -360,7 +361,7 @@ article img{
 		display: none;
 	}
 }
-@media only screen and (max-width:767px){
+@media only screen and (max-width:768px){
 	.btn-wrap {
 		order: 1;
 		margin: 15px 0;
@@ -375,9 +376,6 @@ article img{
 	.header-logo-right {
 		margin: 20px 0;
 	}
-	.header {
-		margin-top: -20px;
-	}
 	#commands {
 		bottom: 80px;
 		left: 90px;
@@ -391,13 +389,14 @@ article img{
 	}
 }
 @media only screen and (max-width:575px){
-	.download {
-		right: 32%;
-	}
-}
-@media only screen and (max-width:575px){
 	.product__list {
 		width: 85%;
+	}
+	.header {
+		margin-top: -20px;
+	}
+	.download {
+		right: 32%;
 	}
 }
 @media only screen and (max-width:500px){
