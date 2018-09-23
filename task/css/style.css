@@ -405,7 +405,8 @@ article img{
 		width: 85%;
 	}
 	.header {
-		margin-top: -20px;
+		padding-top: 20px;
+		margin-top: 0;
 	}
 	.download {
 		right: 32%;
