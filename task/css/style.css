@@ -145,6 +145,7 @@ article img{
 .header {
     padding-bottom: 20px;
 	text-align: center;
+	margin-top: 30px;
 }
 
 .header-title {
@@ -191,6 +192,7 @@ article img{
 	top: 230px;
 	left: 13%;
 	background: rgba(255, 255, 255, 0.6);
+	width: 60%;
 }
 .product__heading {
 	padding: 15px;
@@ -228,7 +230,7 @@ article img{
 	padding-right: 0 !important;
 }
 .cover {
-	width: 42vw;
+	width: 80%;
 	height: 830px;
 	background-color: rgba(26, 25, 25, 0.5);
 	position: absolute;
@@ -356,18 +358,27 @@ article img{
 		margin: 20px 0;
 	}
 	.header {
-		margin-top: -20px;
+		margin-top: 0px;
+		padding-top: 30px;
 	}
 	#commands {
-		bottom: 100px;
-		left: 90px;
+		bottom: 75px;
+		left: 150px;
 	}
 	#active {
-		bottom: 150px;
-		left: 220px;
+		bottom: 127px;
+		left: 280px;
 	}
 	.download {
 		right: 30%;
+	}
+}
+@media only screen and (max-width:724px){
+	#commands {
+		bottom: 30px;
+	}
+	#active {
+		bottom: 83px;
 	}
 }
 @media only screen and (max-width:575px){
@@ -386,7 +397,7 @@ article img{
 		
 	}
 	.product__heading__text {
-		font-size: 45px;
+		font-size: 40px;
 		transform: none;
 	}
 	.product__price {
@@ -397,7 +408,7 @@ article img{
 		font-size: 15px;
 	}
 	.product__price__text-big {
-		font-size: 27px;
+		font-size: 24px;
 		line-height: 14px;
 		padding: 0px 5px;
 	}
