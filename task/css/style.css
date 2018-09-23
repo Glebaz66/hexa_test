@@ -388,6 +388,9 @@ article img{
 	.download {
 		right: 38%;
 	}
+	.product {
+		top: 180px;
+	}
 }
 @media only screen and (max-width:724px){
 	#commands {
@@ -406,6 +409,11 @@ article img{
 	}
 	.download {
 		right: 32%;
+	}
+}
+@media only screen and (max-width:506px){
+	.product {
+		top: 140px;
 	}
 }
 @media only screen and (max-width:500px){
